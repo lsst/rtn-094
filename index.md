@@ -29,7 +29,7 @@ flowchart TB
 
 ## Observatory States
 
-## Summary of Key Roles	5
+## Summary of Key Roles
 
 ## High Level Priorities (summit driven)
 
