@@ -15,6 +15,12 @@ A schematic of Summit Operations. This could be drawn as a mermaid diagram.
 
 ### Base Operations
 
+An example inline mermaid diagram
+```mermaid
+flowchart TB
+    A & B--> C & D
+```
+
 ### US-based Operations
 
 ### External Contributors
