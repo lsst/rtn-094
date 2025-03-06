@@ -8,11 +8,11 @@ This document describes the Rubin Observatory COncept of Operations ...
 
 ### Summit Operations
 
-Figure X shows a figure
+Include a figure
 ```{figure} figures/summit_operations.png
 :figclass: technote-wide-content
 
-Summit Operations
+A schematic of Summit Operations. This could be drawn as a mermaid diagram.
 ```
 ### Base Operations
 
@@ -23,7 +23,7 @@ sequenceDiagram
     participant B
     participant C
     A->>B: load
-    B->>viewscreen: request
+    B->>C: request
     C->>B: return results
     B->>A: B ready
     A->>B: set B
@@ -62,7 +62,7 @@ flowchart LR;
 
 ## Nighttime Task Planning
 
-## Supporting Documents
+## References
 Here we list some initial supporting documents.
 These are expected to be cited throughout the document
 
@@ -73,6 +73,7 @@ Official project documents not under change control -
   - SMTN-002 <https://smtn-002.lsst.io>  (this documnent)
   - PSTN-054 <https://pstn-054.lsst.io>
 
+.. bibliography::
 
 ## Support
 
