@@ -9,30 +9,29 @@ This document describes the Rubin Observatory COncept of Operations ...
 ### Summit Operations
 
 Include a figure
-```{figure} figures/summit_operations.png
-:figclass: technote-wide-content
+![System diagram](figures/summit_operations.png)
 
 A schematic of Summit Operations. This could be drawn as a mermaid diagram.
-```
+
 ### Base Operations
 
 An example inline mermaid diagram
-```mermaid
-sequenceDiagram
-    participant A
-    participant B
-    participant C
-    A->>B: load
-    B->>C: request
-    C->>B: return results
-    B->>A: B ready
-    A->>B: set B
-    B->>B: run task 
-```
 
+```mermaid
+flowchart TB
+    A & B--> C & D
+```
 
 ### US-based Operations
 
+```mermaid
+flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
+```
 
 Example of a mermaid flow chart including hrefs.
 
@@ -56,10 +55,9 @@ Official project documents not under change control -
 : - The LSST Overview Paper <http://ls.st/document-5462>
   - LSST Key Numbers <http://lsst.org/scientists/keynumbers>
   - LSST-PST Syseng_throughputs components git repository  <https://github.com/lsst-pst/syseng_throughputs>
-  - SMTN-002 <https://smtn-002.lsst.io>  (this documnent)
+  - SMTN-002 <https://smtn-002.lsst.io>  (this document)
   - PSTN-054 <https://pstn-054.lsst.io>
 
-.. bibliography::
 
 ## Support
 
