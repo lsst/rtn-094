@@ -33,22 +33,8 @@ sequenceDiagram
 
 ### US-based Operations
 
-```mermaid
- flowchart TD
-    A@{ img: "https://en.wikipedia.org/wiki/File:Large_Synoptic_Survey_Telescope_3_4_render_2013.png", label: "Rubin TMA on wikipedia", pos: "t", w: 60, h: 60, constraint: "off" }
-```
 
 Example of a mermaid flow chart including hrefs.
-```mermaid
-flowchart LR;
-    A-->B;
-    B-->C;
-    C-->D;
-    click A callback "Tooltip for a callback"
-    click B "http://www.github.com" "This is a tooltip for a link"
-    click A call callback() "Tooltip for a callback"
-    click B href "http://www.github.com" "This is a tooltip for a link"
-```
 
 ### External Contributors
 
