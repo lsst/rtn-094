@@ -17,34 +17,57 @@ A schematic of Summit Operations. This could be drawn as a mermaid diagram.
 
 An example inline mermaid diagram
 
-```mermaid
-flowchart TB
-    A & B--> C & D
-```
+[//]: # (```mermaid)
+
+[//]: # (flowchart TB)
+
+[//]: # (    A & B--> C & D)
+
+[//]: # (```)
 
 ### US-based Operations
 
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -->|Yes| C[OK]
-    C --> D[Rethink]
-    D --> B
-    B ---->|No| E[End]
-```
+[//]: # ()
+[//]: # (```mermaid)
 
-```mermaid
-%%{init: {"flowchart": {"htmlLabels": false}} }%%
-flowchart LR
-subgraph "One"
-  a("`The **cat**
-  in the hat`") -- "edge label" --> b{{"`The **dog** in the hog`"}}
-end
-subgraph "`**Two**`"
-  c("`The **cat**
-  in the hat`") -- "`Bold **edge label**`" --> d("The dog in the hog")
-end
-```
+[//]: # (flowchart TD)
+
+[//]: # (    A[Start] --> B{Is it?})
+
+[//]: # (    B -->|Yes| C[OK])
+
+[//]: # (    C --> D[Rethink])
+
+[//]: # (    D --> B)
+
+[//]: # (    B ---->|No| E[End])
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (```mermaid)
+
+[//]: # (%%{init: {"flowchart": {"htmlLabels": false}} }%%)
+
+[//]: # (flowchart LR)
+
+[//]: # (subgraph "One")
+
+[//]: # (  a&#40;"`The **cat**)
+
+[//]: # (  in the hat`"&#41; -- "edge label" --> b{{"`The **dog** in the hog`"}})
+
+[//]: # (end)
+
+[//]: # (subgraph "`**Two**`")
+
+[//]: # (  c&#40;"`The **cat**)
+
+[//]: # (  in the hat`"&#41; -- "`Bold **edge label**`" --> d&#40;"The dog in the hog"&#41;)
+
+[//]: # (end)
+
+[//]: # (```)
 
 ### External Contributors
 
