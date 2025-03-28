@@ -1,0 +1,42 @@
+---
+title: "Daily Planning"
+---
+flowchart LR
+Quarterly --> Monthly
+ Monthly --> Weekly
+  Weekly --> Daily
+subgraph Quarterly [Yearly to quarterly]
+   direction TB
+   q1["Quarterly planning<br>(doesn't happen)"]
+   end
+subgraph Monthly
+   direction TB
+   M0@{ shape: notch-rect, label: "Observatory Scientist<br>(Kevin Reil)"}
+   M1["Rubin Priority Planning<br>(weekly to monthly)"]
+   M4@{ shape: pill, label: Confluence meeting notes}
+   M0 --> M1
+   M1 --> M4
+   end
+subgraph Weekly
+   direction TB
+   M5@{ shape: notch-rect, label: "Commissioning Scientist<br>(Keith Bechtol)"}
+   M2[ SITCom Week Test Planning]
+   M3@{ shape: pill, label: Week test plan}
+   M5 --> M2
+   M2 --> M3
+   
+   W0@{ shape: notch-rect, label: "Summit Manager<br>(Jacques Sebag)"}
+   W1[Weekly Integration]
+   W2@{ shape: pill, label: Summit calendars }
+   W0 --> W1
+   W1 --> W2
+   end
+subgraph Daily
+   direction TB
+   D0@{ shape:  notch-rect, label: "Deputy Summit Manager<br>(Oscar Nunez)"}
+   D1[Daily Summit Tailgate]
+   D2@{ shape: pill, label: "#Summit announce" }
+   D0 --> D1
+   D1 --> D2
+   end
+
