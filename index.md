@@ -8,6 +8,6 @@ Let the fun begin ...
 
 See the [Documenteer documentation](https://documenteer.lsst.io/technotes/index.html) for tips on how to write and configure your new technote.
 
-```{mermaid} mermaid/daytime-planning.mmd
+```{mermaid} mermaid/night-planning.mmd
 ```
 
