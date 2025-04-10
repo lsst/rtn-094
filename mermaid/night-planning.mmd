@@ -1,0 +1,52 @@
+---
+title: "Nightly Planning"
+---
+flowchart LR
+Quarterly --> Monthly
+ Monthly --> Weekly
+  Weekly --> Daily
+subgraph Quarterly [Quarterly to monthly]
+   direction TB
+   q0@{ shape: notch-rect, label: "Systems Scientist"}
+   q1["Strategic Planning meeting"]
+   q2@{ shape: pill, label: "Meeting notes"}
+   click q2 "https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/Strategic+Planning+Meeting"
+   q0 --> q1
+   q1 --> q2
+   end
+subgraph Monthly [Monthly to weekly]
+   direction TB
+   M0@{ shape: notch-rect, label: "Systems Scientist"}
+   M1["Summit Activities Planning"]
+   M4@{ shape: pill, label: "Meeting notes"}
+   click M4 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53740188/Rubin+Priority+Planning"
+   M0 --> M1
+   M1 --> M4
+   M5@{ shape: notch-rect, label: "Systems Commissioning Manager"}
+   M6["Commissioning Activities Planning"]
+   M7@{ shape: pill, label: "Meeting notes"}
+   click M7 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53739741/Weekly+Meetings"
+   M5 --> M6
+   M6 --> M7
+   end
+subgraph Weekly
+   direction TB
+   W0@{ shape: notch-rect, label: "SVV/Commissioning Scientist"}
+   W1[On-sky Commissioning Week Test Planning]
+   W2@{ shape: pill, label: "Meeting notes" }
+   click W2 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/68255748/Week+Test+Plan+Meeting+Notes"
+   W0 --> W1
+   W1 --> W2
+   end
+subgraph Daily
+   direction TB
+   D0@{ shape:  notch-rect, label: "SITCom Test Planning"}
+   click D0 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/SITCOM+Test+Planning+STP"
+   D1@{ shape: notch-rect, label: "#sitcom-test-planning"}
+   D2@{ shape: notch-rect, label: "Nightly plan"}
+   click D2 "https://rubinobs.atlassian.net/projects/BLOCK?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCycles"
+   D3["Evening Planning Tailgate"]
+   D0 --> D2
+   D1 --> D2
+   D2 --> D3
+   end
