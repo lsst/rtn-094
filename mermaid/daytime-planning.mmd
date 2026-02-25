@@ -1,40 +1,48 @@
 ---
-title: "Daily Planning"
+title: "Eng-Ops Planning"
 ---
-flowchart LR
+%%{ init: { "theme": "default", "themeVariables": { "fontSize": "24px"} } }%%
+flowchart TB
 Quarterly --> Monthly
  Monthly --> Weekly
   Weekly --> Daily
-subgraph Quarterly [Yearly to quarterly]
+subgraph Quarterly [Yearly→Quarterly]
    direction TB
-   q1["Quarterly planning<br>(doesn't happen)"]
+   Q0@{ shape: notch-rect, label: "Chief Engineer"}
+   Q1["Daytime Quarterly Review"]
+   Q0 --> Q1
    end
 subgraph Monthly
    direction TB
    M0@{ shape: notch-rect, label: "Observatory Scientist"}
-   M1["Rubin Priority Planning<br>(weekly to monthly)"]
+   M1["Summit Monthly Planning"]
    M4@{ shape: pill, label: Confluence meeting notes}
+   click M4 "https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/St
+rategic+Planning+Meeting"
    M0 --> M1
    M1 --> M4
-   end
+   end 
 subgraph Weekly
    direction TB
-   M5@{ shape: notch-rect, label: "Commissioning Scientist"}
-   M2["SITCom Week Test Planning<br>(may change during operations)"]
-   M3@{ shape: pill, label: Week test plan}
-   M5 --> M2
-   M2 --> M3
-   
    W0@{ shape: notch-rect, label: "Summit Manager"}
-   W1[Weekly Integration]
+   W1[Daytime Weekly Integration]
    W2@{ shape: pill, label: Summit calendars }
+   click W2 "https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calend
+ar/calendar-page?project.key=SUMMIT&project.id=10053"
    W0 --> W1
    W1 --> W2
+   M5@{ shape: notch-rect, label: "Systems Support Scientist"}
+   M2["Weekly Summit Performance Status"]
+   M3@{ shape: pill, label: Week test plan}
+   click M3 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/S
+ITCOM+Test+Planning+STP"
+   M5 --> M2
+   M2 --> M3
    end
 subgraph Daily
    direction TB
    D0@{ shape:  notch-rect, label: "Deputy Summit Manager"}
-   D1[Daily Summit Tailgate]
+   D1[Daytime Briefing]
    D2@{ shape: pill, label: "#Summit announce" }
    D0 --> D1
    D1 --> D2
