@@ -13,11 +13,82 @@ license.id = "CC-BY-4.0"
 state = "draft"
 
 [[technote.authors]]
-name.given = "Leanne P."
-name.family = "Guy"
-internal_id = "guylp"
-orcid = "https://orcid.org/0000-0003-0800-8755"
+name.given = "Scot J."
+name.family = "Kleinman"
+internal_id = "kleinmansj"
 [[technote.authors.affiliations]]
 name = "Vera C. Rubin Observatory Project Office"
 internal_id = "RubinObs"
 address = "950 N. Cherry Ave., Tucson, AZ 85719, USA"
+[[technote.authors]]
+name = {given = "Erik", family = "Dennihy"}
+internal_id = "dennihye"
+orcid = "https://orcid.org/0000-0003-2852-268X"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory Project Office"
+internal_id = "RubinObs"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Eric J.", family = "Christensen"}
+internal_id = "christensenej"
+orcid = "https://orcid.org/0009-0001-9424-2291"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory"
+internal_id = "RubinObsC"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Anastasia", family = "Alexov"}
+internal_id = "alexova"
+orcid = "https://orcid.org/0009-0000-7835-3963"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory Project Office"
+internal_id = "RubinObs"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Leanne P.", family = "Guy"}
+internal_id = "guylp"
+orcid = "https://orcid.org/0000-0003-0800-8755"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory"
+internal_id = "RubinObsC"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "R. Lynne", family = "Jones"}
+internal_id = "jonesrl"
+orcid = "https://orcid.org/0000-0001-5916-0031"
+[[technote.authors.affiliations]]
+name = "University of Washington"
+internal_id = "Washington"
+ror = "https://ror.org/00cvxb145"
+[[technote.authors]]
+name = {given = "Sandrine", family = "Thomas"}
+internal_id = "thomass"
+orcid = "https://orcid.org/0000-0002-9121-3436"
+[[technote.authors.affiliations]]
+name = "NSF NOIRLab"
+internal_id = "RubinOps"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Tiago", family = "Ribeiro"}
+internal_id = "ribeirot"
+orcid = "https://orcid.org/0000-0002-0138-1365"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory Project Office"
+internal_id = "RubinObs"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Alysha B.", family = "Shugart"}
+internal_id = "shugarta"
+orcid = "https://orcid.org/0009-0000-6778-7168"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory"
+internal_id = "RubinObsC"
+ror = "https://ror.org/048g3cy84"
+[[technote.authors]]
+name = {given = "Steven J.", family = "Margheim"}
+internal_id = "margheimsj"
+orcid = "https://orcid.org/0000-0001-8205-9441"
+[[technote.authors.affiliations]]
+name = "Vera C. Rubin Observatory/NSF NOIRLab"
+internal_id = "RubinOpsC"
+ror = "https://ror.org/048g3cy84"
