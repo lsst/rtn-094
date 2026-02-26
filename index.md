@@ -4,9 +4,10 @@
 Let the fun begin ...
 ```
 
-## Add content here
+## Introduction
 
-Introduction
+this markup langauge sucks!
+
 This document outlines the practical implementation of summit operations
 for Vera C. Rubin Observatory. It details the planning and execution of
 work for both engineering operations (eng-ops; daytime) and observatory
@@ -27,6 +28,6 @@ of the data, which are discussed in RD13.
 
 See the [Documenteer documentation](https://documenteer.lsst.io/technotes/index.html) for tips on how to write and configure your new technote.
 
-```{mermaid} mermaid/night-planning.mmd
+ ```{mermaid} mermaid/night-planning.mmd
 ```
 
