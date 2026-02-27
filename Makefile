@@ -5,6 +5,7 @@ init:
 
 .PHONY:
 html:
+	rm -rf _build
 	tox run -e html
 
 .PHONY:
