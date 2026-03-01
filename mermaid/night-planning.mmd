@@ -15,8 +15,8 @@ subgraph Quarterly ["<div style='width: 300px;'>Quarterly to monthly</div>"]
    end
 subgraph Monthly [Monthly to weekly]
    direction TB
-   M5@{ shape: notch-rect, label: "alibration Consultant
-   M6["Rubin Extended Computing Activities Planning"]
+   M5@{ shape: notch-rect, label: "Calibration Consultant" }
+   M6["Rubin Extended Computing Activities Planning"] 
    M7@{ shape: pill, label: "Meeting notes"}
    click M7 "https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53739741/Weekly+Meetings"
    M5 --> M6
@@ -45,4 +45,4 @@ subgraph Daily
    D1 --> D2
    D4 --> D2
    D2 --> D3
-   end 
+   end
