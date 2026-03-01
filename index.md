@@ -117,8 +117,8 @@ for Vera C. Rubin Observatory. It details the planning and execution of
 work for both engineering operations (eng-ops; daytime) and observatory
 operations (obs-ops; daytime and nighttime). These activities encompass
 scheduled milestones such as maintenance, emergent repairs, and general
-level-of-effort tasks. Guided by the organizational structure in Figure
-2-1, this document provides a clear roadmap for the various departments,
+level-of-effort tasks. Guided by the organizational structure in {numref}`orgchart`,
+this document provides a clear roadmap for the various departments,
 consisting of various teams, requesting, implementing, and monitoring
 specific summit work.  For high-level planning context, refer to
 [RD30](#RD30).
@@ -149,7 +149,7 @@ of responsibility has changed its name to Chile Facilities and Long Haul
 Network.  We’ll update the organizational chart in the next release.*
 
 ```
-Figure 2-1 shows the organizational chart for Rubin operations.  The
+{numref}`orgchart` shows the organizational chart for Rubin operations.  The
 Directorate office is headed by the Director of Operations and has Safety,
 Program Operations, In-kind Program Coordination, and a Legacy Survey of
 Space and Time (LSST) teams. The three departments (pending the removal
@@ -241,8 +241,8 @@ and cadences involved in data management. For example, the *Calibration
 Products Production* group sits in the **Algorithms and Pipelines**
 team along with two other groups *Alert Production* and *Data Release
 Production*.  The **Algorithms and Pipelines** team sits in the **Data
-Production** area of responsibility.  The organizational chart in figure
-2-1 shows the areas of expertise and the teams within them; it does not
+Production** area of responsibility.  The organizational chart in {numref}`orgchart`
+shows the areas of expertise and the teams within them; it does not
 show the groups.
 
 The **Data Facilities** (DF) teams oversee the data facilities performance
@@ -344,7 +344,7 @@ answer, in which case she tells the submitter that she is working on
 the problem.  The problem may need to be reproduced so the respondent
 works with the submitter to do this.  In some cases, the problem is not
 answerable without some more research as to what caused the problem and
-what the solution is.  Figure 4-1 outlines the process the CST uses to
+what the solution is.  {numref}`problem-solve` outlines the process the CST uses to
 address a problem.
 
 Once a problem is discovered that requires research to figure out (whether
@@ -450,7 +450,7 @@ observatory-wide systems *at the summit* include:
 
 The eng-ops tasks consist of troubleshooting, fixing problems,
 maintenance, and upgrades.  Planning for eng–ops work happens in four
-phases (figure 5-1 and table 5-1): the yearly/quarterly, the monthly,
+phases ({numref}`daytime-planning` and table 5-1): the yearly/quarterly, the monthly,
 weekly, and daily planning. The yearly/quarterly planning is the
 responsibility of the chief engineer and informs the monthly planning,
 which in turn informs the weekly and then the daily plans. Each planning
@@ -761,7 +761,7 @@ planning meetings (the weekly and the daily; see the next section).
 The daily obs-ops plan is the result of input from numerous meetings.
 They each deal with different timescales: the quarterly to monthly,
 the monthly to weekly, the weekly, and the daily. See table 5-2 below
-and the flowchart figure 5-2.  If you have an obs-ops test you want
+and the flowchart {numref}`night-planning`.  If you have an obs-ops test you want
 to get done, it’s best to raise it at the *Summit Monthly Planning*
 meeting. If you need it done in the next couple of days, then post to
 the **\#rso-test-planning** channel.
@@ -1121,7 +1121,7 @@ approved tests and lets the submitter know when the test has been done.
 It is important for the time for on-sky nighttime tests to be done
 consistent with what the scheduler allows for in its simulation.  One way
 the survey scheduling team looks at this is by plotting metrics vs. time
-(see figure 5-3).  So that way they can see if the survey is ahead or
+(see {numref}`gdepthvstime`).  So that way they can see if the survey is ahead or
 behind schedule,  meaning more or less time for tests.
 
 ```{figure} pix/gdepthVStime.png
@@ -1180,7 +1180,7 @@ about the channel and its topic.
 
 Because Slack is an important means for realtime communication, there is
 a responsibility matrix for monitoring the slack channels, as shown in
-figure 7-1 and 7-2.  By adhering to this, the Observatory ensures that
+{numref}`slackusage` and {numref}`slacktiers`.  By adhering to this, the Observatory ensures that
 people who need to know what’s going on in Slack, do.
 
 ```{figure} pix/slackusage.png
@@ -1190,7 +1190,7 @@ align: center
 ---
 *Who is responsible for monitoring what Slack
 channels. This figure can be found at [RD44](#RD44). The tiers are
-discussed in figure 7-2.*
+discussed in {numref}`slacktiers`.*
 ```
 
 ```{figure} pix/slacktiers.png
@@ -1199,7 +1199,7 @@ name: slacktiers
 align: center
 ---
 *A discussion of the tiers in the Slack channel
-referred to in figure 7-1.*
+referred to in {numref}`slackusage`.*
 ```
 
 (squadcast)=
