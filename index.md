@@ -134,7 +134,12 @@ which are discussed in [RD13](#RD13).
 (operations-organizational-chart)=
 1. ## Operations organizational chart
 
-![][image1]*Figure 2-1: The organizational chart for Rubin operations.
+```{figure} pix/orgchart.png
+---
+name: orgchart
+align: center
+---
+*The organizational chart for Rubin operations.
 Outside of the Director’s office are four departments, each containing
 teams.  Each department has an Associate Director as the head, and
 each team has a team lead. As of this writing, the System Performance
@@ -143,6 +148,7 @@ indicated by the red arrows. Additionally, the RDM Data Acquisition area
 of responsibility has changed its name to Chile Facilities and Long Haul
 Network.  We’ll update the organizational chart in the next release.*
 
+```
 Figure 2-1 shows the organizational chart for Rubin operations.  The
 Directorate office is headed by the Director of Operations and has Safety,
 Program Operations, In-kind Program Coordination, and a Legacy Survey of
@@ -1118,14 +1124,17 @@ the survey scheduling team looks at this is by plotting metrics vs. time
 (see figure 5-3).  So that way they can see if the survey is ahead or
 behind schedule,  meaning more or less time for tests.
 
-![][image5]
-
-*FIgure 5-3: A simulated plot of g depth versus date (the black dots) plotted against a simulation. Here, you can see the survey is slightly ahead of where it should be.*
+```{figure} pix/gdepthVStime.png
+---
+name: gdepthvstime
+align: center
+---
+*A simulated plot of g depth versus date (the black dots) plotted against a simulation. Here, you can see the survey is slightly ahead of where it should be.*
+```
 
 (communications)=
 6. #  Communications
 
-   
 
 (communication-channels-and-etiquette)=
    1. ## Communication channels and etiquette 
@@ -1174,12 +1183,24 @@ a responsibility matrix for monitoring the slack channels, as shown in
 figure 7-1 and 7-2.  By adhering to this, the Observatory ensures that
 people who need to know what’s going on in Slack, do.
 
-![][image6]*Figure 7-1: Who is responsible for monitoring what Slack
+```{figure} pix/slackusage.png
+---
+name: slackusage
+align: center
+---
+*Who is responsible for monitoring what Slack
 channels. This figure can be found at [RD44](#RD44). The tiers are
 discussed in figure 7-2.*
+```
 
-![][image7]*Figure 7-2: A discussion of the tiers in the Slack channel
+```{figure} pix/slacktiers.png
+---
+name: slacktiers
+align: center
+---
+*A discussion of the tiers in the Slack channel
 referred to in figure 7-1.*
+```
 
 (squadcast)=
 3. ## SquadCast
@@ -1626,11 +1647,3 @@ These documents are referred to as RDX in the text where X equals the decimal nu
 56.  Quick Safety Reference for Nighttime Personnel  
        [https://obs-ops.lsst.io/Safety/index.html](https://obs-ops.lsst.io/Safety/index.html)  
 
-     
-[image1]: pix/orgchart.png
-
-[image5]: pix/gdepthVStime.png
-
-[image6]: pix/slackusage.png
-
-[image7]: pix/slacktiers.png
