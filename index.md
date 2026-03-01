@@ -1,116 +1,16 @@
-# Summit Facility ConOps (DRAFT)
+# Summit Facility ConOps
 
+```{toctree}
+:maxdepth: 6
+:numbered:
+```
 
-[1\. Reference documents	3](#reference-documents)
-
-[2\. Introduction	7](#introduction)
-
-[2.1. Operations organizational chart	8](#operations-organizational-chart)
-
-[3\. Director’s office	10](#director’s-office)
-
-[3.1. The Director’s office teams	10](#the-director’s-office-teams)
-
-[4\. Data management in operations	12](#data-management-in-operations)
-
-[4.1. The DM teams	12](#the-dm-teams)
-
-[4.2. Handling a problem	13](#handling-a-problem)
-
-[4.2.1. Data problem handling	14](#data-problem-handling)
-
-[5\. Summit operations	18](#summit-operations)
-
-[5.1. The RSO teams	18](#the-rso-teams)
-
-[5.2. Planning for eng-ops summit work	19](#planning-for-eng-ops-summit-work)
-
-[5.2.1. Yearly/quarterly planning meeting	22](#yearly/quarterly-planning-meeting)
-
-[5.2.2. Monthly/weekly planning meeting: the Summit Monthly Planning meeting	22](#monthly/weekly-planning-meeting:-the-summit-monthly-planning-meeting)
-
-[5.2.3. Weekly planning meetings	22](#weekly-planning-meetings)
-
-[5.2.3.1. The Daytime Weekly Integration Meeting	23](#the-daytime-weekly-integration-meeting)
-
-[5.2.3.2. The Weekly Summit Performance Status	23](#the-weekly-summit-performance-status)
-
-[5.2.4. Daily planning meeting: Daytime Briefing meeting	23](#daily-planning-meeting:-daytime-briefing-meeting)
-
-[5.2.5. Observatory software and DevOps	24](#observatory-software-and-devops)
-
-[5.2.6. Summary	24](#summary)
-
-[5.3. Planning for obs-ops summit work	26](#planning-for-obs-ops-summit-work)
-
-[5.3.1. Forming the daily observatory operations plan	26](#forming-the-daily-observatory-operations-plan)
-
-[5.3.2. Calibrations	27](#calibrations)
-
-[5.3.3. Meetings	28](#meetings)
-
-[5.3.4. Summary	31](#summary-1)
-
-[5.4. Implementing eng-ops summit work	32](#implementing-eng-ops-summit-work)
-
-[5.4.1. Version control	32](#version-control)
-
-[5.4.2. Output	33](#output)
-
-[5.4.3. Handover	33](#handover)
-
-[5.4.4. Summary	33](#summary-2)
-
-[5.5. Implementing obs-ops summit work	35](#implementing-obs-ops-summit-work)
-
-[5.5.1. Who’s at the summit	35](#who’s-at-the-summit)
-
-[5.5.2. Who’s responsible	35](#who’s-responsible)
-
-[5.5.3. Who’s on call	36](#who’s-on-call)
-
-[5.5.4. Handover	36](#handover-1)
-
-[5.5.5. Summary	37](#summary-3)
-
-[5.6. Handling a problem	37](#handling-a-problem-1)
-
-[5.6.1. System problem handling	37](#system-problem-handling)
-
-[5.6.2. Doing a summit test	37](#doing-a-summit-test)
-
-[6\. Communications	40](#communications)
-
-[6.1. Communication channels and etiquette	40](#communication-channels-and-etiquette)
-
-[6.2. Slack channels	40](#slack-channels)
-
-[6.3. SquadCast	42](#squadcast)
-
-[6.4. Zoom	42](#zoom)
-
-[6.5. Calling for help	42](#calling-for-help)
-
-[7\. Safety	44](#safety)
-
-[8\. Understanding data quality	45](#understanding-data-quality)
-
-[8.1. The different steps of understanding data quality	45](#the-different-steps-of-understanding-data-quality)
-
-[8.2. What to do with quality assessments	45](#what-to-do-with-quality-assessments)
-
-[8.3. Using the tools	46](#using-the-tools)
-
-[A. People in roles	48](#people-in-roles)
-
-
-
-       
-
-     
+```{contents} Table of Contents
+:depth: 5
+```
 
 (introduction)=
-2. # Introduction 
+## Introduction 
 
 This document outlines the practical implementation of summit operations
 for Vera C. Rubin Observatory. It details the planning and execution of
@@ -132,7 +32,7 @@ discuss the transfer, processing, distribution, and storage of the data,
 which are discussed in [RD13](#RD13).
 
 (operations-organizational-chart)=
-1. ## Operations organizational chart
+### Operations organizational chart
 
 ```{figure} pix/orgchart.png
 ---
@@ -169,14 +69,14 @@ we don’t discuss the EPO department; their design is discussed in
 [RD24](#RD24) and [RD13](#RD13).
 
 (director’s-office)=
-3. #  Director’s office
+##  Director’s office
 
 The Vera C. Rubin Observatory Director’s office is responsible for
 overall management of the observatory and the survey as well as fulfilling
 the mission of the observatory and realizing its vision.
 
 (the-director’s-office-teams)=
-1. ## The Director’s office teams 
+### The Director’s office teams 
 
 The **Directorate** team contains the director, deputy director and
 together with the head of program operations and the head of science
@@ -217,10 +117,9 @@ remaining survey time, folding in an evolving understanding of the
 observatory system, and ascertaining whether a change to the scheduling
 algorithm or configuration may be warranted.
 
-# 
 
 (data-management-in-operations)=
-4. #  Data management in operations
+##  Data management in operations
 
 The Rubin Data Management (RDM) department is responsible for the
 development, maintenance, and operation of the networks, hardware, and
@@ -232,7 +131,7 @@ affect summit operations and assess the quality of the data produced.
 
 
 (the-dm-teams)=
-1. ## The DM teams
+### The DM teams
 
 Within the DM department staff are organized into areas of
 responsibilities  Within those areas are the teams.  The teams are
@@ -293,7 +192,7 @@ Software** (DMS) services is unclear, AURA team leads in DM are
 administratively in DMS functionally reporting to the AD of DM.
 
 (handling-a-problem)=
-2. ## Handling a problem
+### Handling a problem
 
 With the exception of prompt processing, DM is mostly not responsible
 for critical systems. Thus, they work during the day and make requests
@@ -319,7 +218,7 @@ first solution put in place while RSO works on the problem.  In this case,
 the problem may be handled with the data problem handling described below.
 
 (data-problem-handling)=
-1. ### Data problem handling
+#### Data problem handling
 
 In addition to their own monitoring, the **Community Science** team
 (CST) runs the Rubin Observatory Community Forums ([RD22](#RD22)).  They encourage
@@ -379,7 +278,7 @@ Optimization Committee (SCOC), depending upon the nature of the request.
 
 
 (summit-operations)=
-5. # Summit operations 
+## Summit operations 
 
 This chapter will divide the summit operations work into engineering
 operations (eng-ops) and observatory operations (obs-ops). The eng-ops
@@ -388,7 +287,7 @@ done at night, although during the day there is work done for calibrations
 and preparing for the nighttime observations.
 
 (the-rso-teams)=
-1. ## The RSO teams
+### The RSO teams
 
 The RSO consists of 7 teams: **Science Operations**, **Summit Software**,
 **Summit Facility**, **Nighttime Operations**, **Summit Engineering**,
@@ -446,7 +345,7 @@ observatory-wide systems *at the summit* include:
 * System (re-)verification and (re-)validation 
 
 (planning-for-eng-ops-summit-work)=
-  2. ## Planning for eng-ops summit work 
+### Planning for eng-ops summit work 
 
 The eng-ops tasks consist of troubleshooting, fixing problems,
 maintenance, and upgrades.  Planning for eng–ops work happens in four
@@ -476,7 +375,7 @@ name: daytime-planning
 ```
 
 (yearly/quarterly-planning-meeting)=
-1. ### Yearly/quarterly planning meeting
+#### Yearly/quarterly planning meeting
 
 The *Daytime Quarterly Review* reviews the tasks that need to be
 completed each quarter.  The group ensures the plan aligns with the
@@ -503,7 +402,7 @@ construction comes to a close.   We expect a meeting of this nature to
 occur during operations.
 
 (monthly/weekly-planning-meeting:-the-summit-monthly-planning-meeting)=
-2. ### Monthly/weekly planning meeting: the Summit Monthly Planning meeting
+#### Monthly/weekly planning meeting: the Summit Monthly Planning meeting
 
 The *Summit Monthly Planning* meeting is held every week and looks at
 the next week to month timescale of what engineering work needs to be
@@ -525,10 +424,10 @@ Review*.
 * Meetings currently happen weekly (see [RD1](#RD1)), but may switch to bi-weekly
 
 (weekly-planning-meetings)=
-  3. ### Weekly planning meetings
+#### Weekly planning meetings
 
 (the-daytime-weekly-integration-meeting)=
-     1. #### The Daytime Weekly Integration Meeting
+##### The Daytime Weekly Integration Meeting
 
 The *Daytime* *Weekly Integration* meeting happens once a week (see
 [RD1](#RD1)) to go over what engineering work goes on at the telescope
@@ -550,7 +449,7 @@ for all the subsystems.
 
 
 (the-weekly-summit-performance-status)=
-  2. #### The Weekly Summit Performance Status 
+##### The Weekly Summit Performance Status 
 
 The *Weekly Summit Performance Status* meeting occurs weekly and goes over
 both daytime and nighttime tests.  The attendees are typically the summit
@@ -563,7 +462,7 @@ the telescope is primarily run via the Feature Based Scheduler.
 * Meetings currently happen once a week (see [RD1](#RD1))
 
 (daily-planning-meeting:-daytime-briefing-meeting)=
-  4. ### Daily planning meeting: Daytime Briefing meeting 
+#### Daily planning meeting: Daytime Briefing meeting 
 
 The *Daytime Briefing* meeting happens at the summit at the start of
 every day. It is a 15–45 minute meeting, run by the deputy **Summit
@@ -593,7 +492,7 @@ of the planning to the people implementing the work.
 * This meeting happens at the start of each workday (see [RD1](#RD1))
 
 (observatory-software-and-devops)=
-  5. ### Observatory software and DevOps 
+#### Observatory software and DevOps 
 
 During operations, **Base and Summit DFs,** **DevOps** (see section 4.1),
 and **Summit Software** (see [RD15](#RD15)) tasks will get added in the meetings
@@ -609,7 +508,7 @@ meeting. In general, most of the work is outlined under Jira tickets. A
 notification goes to the product owner whenever a Jira ticket is created.
 
 (summary)=
-6. ### Summary
+#### Summary
 
 * Responsible
 
@@ -640,7 +539,7 @@ notification goes to the product owner whenever a Jira ticket is created.
   * Other daytime work gets handed over/announced at **\#summit-announce**
 
 (planning-for-obs-ops-summit-work)=
-  3. ## Planning for obs-ops summit work 
+### Planning for obs-ops summit work 
 
 Daytime obs-ops summit activities consist of calibrations and preparing
 for the nighttime obs-ops activities. This work includes getting the
@@ -664,7 +563,7 @@ obs-ops plan presented here. It will likely be replaced with a standard
 daily plan.
 
 (forming-the-daily-observatory-operations-plan)=
-1. ### Forming the daily observatory operations plan 
+#### Forming the daily observatory operations plan 
 
 The daily observatory operations (obs-ops) plan encompasses both
 daytime and nighttime activities. This plan is a single **Zephyr Scale
@@ -705,7 +604,7 @@ plan. The triage manager also communicates pending triage tasks to the
 test planner for inclusion into the daily obs-ops plan.
 
 (calibrations)=
-2. ### Calibrations 
+#### Calibrations 
 
 Calibrations are taken every day.  They serve as a check on the camera
 and the viability of the calibrations used.  The calibration system
@@ -756,7 +655,7 @@ planning meetings (the weekly and the daily; see the next section).
 [RD31](#RD31) has the list of the TAXICAB Jira tickets and their current status.
 
 (meetings)=
-3. ### Meetings
+#### Meetings
 
 The daily obs-ops plan is the result of input from numerous meetings.
 They each deal with different timescales: the quarterly to monthly,
@@ -830,7 +729,7 @@ for the next night plan.
 
 
 (summary-1)=
-4. ### Summary
+#### Summary
 
 * Responsible
 
@@ -853,7 +752,7 @@ for the next night plan.
   * *Nighttime Briefing* meeting
 
 (implementing-eng-ops-summit-work)=
-4. ## Implementing eng-ops summit work 
+### Implementing eng-ops summit work 
 
 The deputy head of **Summit Facilities** runs the *Daytime Briefing*
 at the start of the workday, where all the work for the day is being
@@ -884,7 +783,7 @@ Slack accounts and/or **\#summit-announce** if there’s a conflict that
 needs resolving.
 
 (version-control)=
-1. ### Version control 
+#### Version control 
 
 It’s important to capture the work that’s been done to maintain an
 up to date look at the status of the hardware. Most work is recorded in
@@ -900,7 +799,7 @@ to be deprecated during the night, they must go to the summit support
 scientists or the appropriate observatory software (OSW) expert to do so.
 
 (output)=
-2. ### Output
+#### Output
 
 The output of the *Daytime Briefing* is posted as notes in a thread of
 **\#summit-announce**. This is where you can see what each day crew member
@@ -915,7 +814,7 @@ is to look at the daily tailgate notes in **\#summit-announce**. Work
 on a Jira ticket (see [RD4](#RD4) and [RD5](#RD5)) gets acknowledged in Jira, as well.
 
 (handover)=
-3. ### Handover 
+#### Handover 
 
 Handover occurs during the day. It occurs, nominally at a given time (see
 [RD2](#RD2)) by the day crew. This is announced in **\#summit-announce**. During
@@ -929,7 +828,7 @@ start of tests ([RD33](#RD33)). The daytime handover does not go over the work
 done that day. See 5.4.2 for how to find out what work got done that day.
 
 (summary-2)=
-4. ###  Summary 
+####  Summary 
 
 * Responsible
 
@@ -952,14 +851,14 @@ done that day. See 5.4.2 for how to find out what work got done that day.
   * Occurs at the daily handover to the obs-ops crew
 
 (implementing-obs-ops-summit-work)=
-5. ## Implementing obs-ops summit work
+### Implementing obs-ops summit work
 
 This section describes the people involved in obs-ops summit work at
 the summit.  It does not describe the work of operations; see [RD10](#RD10) for
 a list of obs-ops procedures and documentation for telescope operations.
 
 (who’s-at-the-summit)=
-1. ### Who’s at the summit
+#### Who’s at the summit
 
 The observing specialists (OS; discussed in [RD13](#RD13)) are those
 responsible for executing the obs-ops daily plan. During the daytime,
@@ -996,7 +895,7 @@ late shift begins at 20:00 and goes to sunrise. These shift hours may
 change with time. See [RD2](#RD2) for the current details.
 
 (who’s-responsible)=
-2. ### Who’s responsible 
+#### Who’s responsible 
 
 Observing specialists oversee the execution of the daily obs-ops plan,
 ensuring the system’s safe operations and stable performance. They
@@ -1032,12 +931,12 @@ summit, the shift manager makes a call in conjunction with the OS manager
 the call first.
 
 (who’s-on-call)=
-3. ### Who’s on call 
+#### Who’s on call 
 
 Section 6.5 discusses the call tree when something goes wrong.   
 
 (handover-1)=
-4. ### Handover
+#### Handover
 
 The observing specialists produce a detailed logging of what happens
 over the night via OLE (the Observatory Logging Environment) and at
@@ -1052,7 +951,7 @@ Zephyr Scale, and end-of-night status messages posted to Slack channels
 **\#summit-announce, \#summit-simonyi,** and **\#summit-auxtel**.
 
 (summary-3)=
-5. ### Summary
+#### Summary
 
 * Responsible
 
@@ -1077,10 +976,10 @@ Zephyr Scale, and end-of-night status messages posted to Slack channels
   ### 
 
 (handling-a-problem-1)=
-  6. ## Handling a problem
+### Handling a problem
 
 (system-problem-handling)=
-     1. ### System problem handling
+#### System problem handling
 
 Problems related to the system are captured in FRACAS. Besides handling
 issues as part of the corrective action process associated with
@@ -1091,7 +990,7 @@ from FMECA are recorded as corrective maintenance activities in the
 maintenance management system (see 5.2.1).
 
 (doing-a-summit-test)=
-2. ### Doing a summit test 
+#### Doing a summit test 
 
 In the course of the problems’ analyses there may be a need for
 some tests to be performed to help determine the cause of what they are
@@ -1133,11 +1032,11 @@ align: center
 ```
 
 (communications)=
-6. #  Communications
+##  Communications
 
 
 (communication-channels-and-etiquette)=
-   1. ## Communication channels and etiquette 
+### Communication channels and etiquette 
 
 Slack serves as the primary platform for internal communication at the
 observatory. However, some of the groups of the extended family are not
@@ -1165,7 +1064,7 @@ result of that conversation is something that concerns others, the talkers
 should summarize the results of the conversation in a Slack channel.
 
 (slack-channels)=
-2. ## Slack channels
+### Slack channels
 
 Although Slack also has a direct messaging capability, the observatory
 encourages people to use the public channels instead. In that way, the
@@ -1203,7 +1102,7 @@ referred to in {numref}`slackusage`.*
 ```
 
 (squadcast)=
-3. ## SquadCast
+### SquadCast
 
 Problems involving systems not being worked on can occur during the day
 and many systems have automated alarms through the Watcher service. A
@@ -1217,7 +1116,7 @@ can also be configured to create Jira tickets, create a slack channel,
 send email, all with configurable messages.
 
 (zoom)=
-4. ## Zoom
+### Zoom
 
 Those working remotely connect to the summit control room with Zoom (the
 link is available in the bookmarks of **\#summit-simonyi** channel). This
@@ -1229,7 +1128,7 @@ room. The main channel should be used for debugging / troubleshooting
 discussions that involve the observing specialists.
 
 (calling-for-help)=
-5. ## Calling for help
+### Calling for help
 
    1. In emergencies
 
@@ -1255,7 +1154,7 @@ manager is consulted first. Summit calls for DevOps are handled via a
 work form at [RD39](#RD39).
 
 (safety)=
-7. #  Safety 
+##  Safety 
 
 The Vera C. Rubin Observatory is committed to achieving the highest
 performance in safety, health, and environmental management practices.
@@ -1288,10 +1187,8 @@ assistant in case of medical emergency.
 Section 6.5 has the discussion of how to call when there is an emergency
 at the summit.
 
-# 
-
 (understanding-data-quality)=
-8. #  Understanding data quality 
+##  Understanding data quality 
 
 This section deals with people and systems understanding data quality
 to determine what actions, if any, need to happen in the coming daytime
@@ -1301,7 +1198,7 @@ or maintenance task must be performed to ensure data quality for the
 next night.
 
 (the-different-steps-of-understanding-data-quality)=
-1. ## The different steps of understanding data quality
+### The different steps of understanding data quality
 
 There are tools we use to assess data quality:
 
@@ -1328,7 +1225,7 @@ active, but a prototype with limited exposures was developed for LSSTCam
 data.  The idea is to store the data from that into the ExposureLog.
 
 (what-to-do-with-quality-assessments)=
-  2. ## What to do with quality assessments
+### What to do with quality assessments
 
 The scheduler automatically will retake bad data. The **Survey
 Scheduling** team (under the Director’s Office **LSST** team) will
@@ -1352,7 +1249,7 @@ official data assessment along with the full history of data assessments
 by looking at the inactive comments.
 
 (using-the-tools)=
-3. ## Using the tools 
+### Using the tools 
 
 Data pipeline and its products are the face of Rubin Observatory the
 public/scientists see. Here we discuss how they impact daily routines at
@@ -1430,7 +1327,7 @@ is given by [RD25](#RD25) and a short tutorial and using it is provided in
 [RD26](#RD26).
 
 (people-in-roles)=
-1. # People in roles
+## People in roles
 
 The staffing plan is given in [[RD13](#RD13)](#[RD13](#RD13)).  This
 appendix has the people in some levels of the org chart as of the time
@@ -1482,7 +1379,7 @@ of this writing.
 | SquadCast Lead | Cristian Silva |
 
 (reference-documents)=
-1. # Reference documents 
+## Reference documents 
 
 These documents are referred to as RDX in the text where X equals the decimal number of the document here. Ex. RD6 refers to 1.6 *The Nightly digest.*
 
