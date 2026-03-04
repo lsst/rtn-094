@@ -1,11 +1,7 @@
 # Summit Facility ConOps
 
-```{toctree}
-:maxdepth: 6
-:numbered:
-```
-
 ```{contents} Table of Contents
+:local:
 :depth: 5
 ```
 
@@ -349,23 +345,53 @@ observatory-wide systems *at the summit* include:
 
 The eng-ops tasks consist of troubleshooting, fixing problems,
 maintenance, and upgrades.  Planning for eng–ops work happens in four
-phases ({numref}`daytime-planning` and table 5-1): the yearly/quarterly, the monthly,
+phases ({numref}`daytime-planning` and {numref}`table5-1`): the yearly/quarterly, the monthly,
 weekly, and daily planning. The yearly/quarterly planning is the
 responsibility of the chief engineer and informs the monthly planning,
 which in turn informs the weekly and then the daily plans. Each planning
 level also considers other inputs that are not necessarily addressed at
-higher levels. Table 5-1 has the chair of each meeting along with other
+higher levels. {numref}`table5-1` has the chair of each meeting along with other
 relevant details.
 
-*Table 5-1: A table of the core meetings that go into the daily eng-ops plan.*  
+```{list-table} *A table of the core meetings that go into the daily eng-ops plan.*
+---
+header-rows: 1
+widths: auto
+name: table5-1
+class: frame
+---
 
-| TImescale | Meeting | Frequency | Chair | Output |
-| ----- | ----- | ----- | ----- | ----- |
-| **Year– Quarter** | Daytime Quarterly Review | Quarterly (currently doesn’t happen)    | Chief engineer |  |
-| **Month – Week** | Summit Monthly Planning | Bi-weekly  | Deputy AD of RSO | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/Strategic+Planning+Meeting) |
-|  | Weekly Summit Performance Status  | Weekly   | Summit support scientist  | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/SITCOM+Test+Planning+STP) |
-| **Week** | Daytime Weekly Integration | Weekly   | Summit engineering team lead | [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-page?project.key=SUMMIT&project.id=10053) |
-| **Day** | Daytime Briefing | Daily | Deputy head of summit facilities | A thread in [**\#summit-announce**](https://rubin-obs.slack.com/archives/C07QCJ7F962) |
+* - Timescale 
+  - Meeting 
+  - Frequency 
+  - Chair 
+  - Output 
+* - **Year– Quarter**  
+  - Daytime Quarterly Review 
+  - Quarterly (currently doesn’t happen)
+  - Chief engineer
+  - 
+* - **Month – Week** 
+  - Summit Monthly Planning 
+  - Bi-weekly  
+  - Deputy AD of RSO 
+  - [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/Strategic+Planning+Meeting)
+* -
+  - Weekly Summit Performance Status  
+  -  Weekly   
+  - Summit support scientist  
+  -  [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/SITCOM+Test+Planning+STP)
+* -  **Week** 
+  -  Daytime Weekly Integration 
+  -  Weekly   
+  -  Summit engineering team lead 
+  - [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-page?project.key=SUMMIT&project.id=10053) 
+* - **Day** 
+  - Daytime Briefing 
+  - Daily 
+  - Deputy head of summit facilities 
+  - A thread in [**\#summit-announce**](https://rubin-obs.slack.com/archives/C07QCJ7F962) 
+```
 
 ```{mermaid} mermaid/daytime-planning.mmd
 --- 
@@ -594,7 +620,7 @@ ToOs/triggers get observed. [RD34](#RD34) has the ToO processes documented.
 
 The test planner must monitor relevant Slack channels, review meeting
 notes, and often attend the meetings where nighttime activities are
-discussed (see table 5-2). Most of the planning for the daily obs-ops
+discussed (see {numref}`table5-2`). Most of the planning for the daily obs-ops
 plan comes from the day before.  In the morning the test planner reviews
 logs and optionally contacts the test and summit support scientists to
 confirm which tests were completed successfully the previous night. Using
@@ -659,7 +685,7 @@ planning meetings (the weekly and the daily; see the next section).
 
 The daily obs-ops plan is the result of input from numerous meetings.
 They each deal with different timescales: the quarterly to monthly,
-the monthly to weekly, the weekly, and the daily. See table 5-2 below
+the monthly to weekly, the weekly, and the daily. See {numref}`table5-2` below
 and the flowchart {numref}`night-planning`.  If you have an obs-ops test you want
 to get done, it’s best to raise it at the *Summit Monthly Planning*
 meeting. If you need it done in the next couple of days, then post to
@@ -685,17 +711,55 @@ a proposed and planned Test Case are: **\#rso-test-planning** and
 is assigned to it.  When it’s approved, its status update gets changed
 to *ready*.
 
-*Table 5-2: A table of the core meetings that go into the nightly plan.  There are often other system sub-meetings that go into the weekly test meetings that are not included here.*
 
-| TImescale | Meeting | Frequency | Chair | Output |
-| ----- | ----- | ----- | ----- | ----- |
-| **Quarter – Month** | Summit Monthly Planning Meeting | Weekly     | Deputy AD of RSO | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/Strategic+Planning+Meeting) |
-| **Month – Week** | Rubin Extended Computing Activities Planning (RECAP) | Weekly | Calibration Consultant | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53739741/Weekly+Meetings) |
-| **Week** | Weekly Summit Performance Status | Weekly  | Summit support scientist | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/68255748/Week+Test+Plan+Meeting+Notes) |
-| **Week – Day** | Nighttime Plan Coordination | Weekly   | Summit support scientist | [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/SITCOM+Test+Planning+STP) |
-| **Day** | Data Production Review | Daily | Head of RDM Data Production teams | Jira tickets, plus [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTOps/pages/267223066/Weekly+On-sky+Issue+Summaries)  |
-|  | **\#rso-test-planning** (Slack channel) | Daily | Test planner | Nightly plan: [RD9](#RD9) |
-|  | Nighttime Briefing | Daily   | Test planner | Handover |
+```{list-table} *A table of the core meetings that go into the nightly plan.  There are often other system sub-meetings that go into the weekly test meetings that are not included here.*
+---
+header-rows: 1
+widths: auto
+name: table5-2
+---
+
+* - Timescale 
+  - Meeting 
+  - Frequency 
+  - Chair 
+  - Output
+* - **Quarter – Month**
+  - Summit Monthly Planning Meeting
+  - Weekly
+  - Deputy AD of RSO
+  - [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43244380/Strategic+Planning+Meeting)
+* - **Month – Week**
+  - Rubin Extended Computing Activities Planning (RECAP)
+  - Weekly
+  - Calibration Consultant
+  - [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53739741/Weekly+Meetings)
+* - **Week**
+  - Weekly Summit Performance Status
+  - Weekly
+  - Summit support scientist
+  - [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/68255748/Week+Test+Plan+Meeting+Notes)
+* - **Week – Day**
+  - Nighttime Plan Coordination
+  - Weekly
+  - Summit support scientist
+  - [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741775/SITCOM+Test+Planning+STP)
+* - **Day**
+  - Data Production Review
+  - Daily
+  - Head of RDM Data Production teams
+  - Jira tickets, plus [Meeting minutes](https://rubinobs.atlassian.net/wiki/spaces/LSSTOps/pages/267223066/Weekly+On-sky+Issue+Summaries)
+* - 
+  - **#rso-test-planning** (Slack channel)
+  - Daily
+  - Test planner
+  - Nightly plan: [RD9](#RD9)
+* - 
+  - Nighttime Briefing
+  - Daily
+  - Test planner
+  - Handover
+```
 
 The test planner goes over the nightly part of the daily obs-ops plan
 Test Cycle with the shift manager ([RD36](#RD36)) at the *Nighttime Briefing*
@@ -737,7 +801,7 @@ for the next night plan.
 
 * Input
 
-  * All the meetings in Table 5-2
+  * All the meetings in {numref}`table5-2`
 
 * Output
 
