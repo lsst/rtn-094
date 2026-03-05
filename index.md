@@ -1,4 +1,4 @@
-# Summit Facility ConOps
+# Summit Facility ConOps v{{ current_version }}
 
 ```{contents} Table of Contents
 :local:
@@ -26,6 +26,10 @@ plus staffing levels, organization, data management systems and other
 management items including the role of NOIRLab and SLAC.  It does not
 discuss the transfer, processing, distribution, and storage of the data,
 which are discussed in [RD13](#RD13).
+
+The reference documents presented here are numbered from [RD1](#RD1) on 
+up. You can click on them to see the name and the link to the reference
+document.
 
 (operations-organizational-chart)=
 ### Operations organizational chart
@@ -352,6 +356,9 @@ which in turn informs the weekly and then the daily plans. Each planning
 level also considers other inputs that are not necessarily addressed at
 higher levels. {numref}`table5-1` has the chair of each meeting along with other
 relevant details.
+
+```{rst-class} technote-wide-content
+```
 
 ```{list-table} *A table of the core meetings that go into the daily eng-ops plan.*
 ---
@@ -712,6 +719,8 @@ a proposed and planned Test Case are: **\#rso-test-planning** and
 is assigned to it.  When it’s approved, its status update gets changed
 to *ready*.
 
+```{rst-class} technote-wide-content
+```
 
 ```{list-table} *A table of the core meetings that go into the nightly plan.  There are often other system sub-meetings that go into the weekly test meetings that are not included here.*
 ---
@@ -1407,13 +1416,13 @@ of this writing.
 
 | Role | Person |
 | ----- | ----- |
-| **Directorate** | Director of Operations: Bob Blum Deputy Director of Operations: Phil Marshall |
+| **Directorate** | Director of Operations: Bob Blum<BR>Deputy Director of Operations: Phil Marshall |
 |   Safety | Sandra Romero Zenteno |
 |   Program operations | Ranpal Gill |
 |   In-kind program coordination | Aprajita Verma |
 |   Legacy Survey of Space and TIme (LSST) | Zeljko Ivezic |
 |   Survey scheduling | Lyyne Jones |
-| **RSO** | Associate Director of Summit Operations: Sandrine Thomas Deputy: Kevin Reil |
+| **RSO** | Associate Director of Summit Operations: Sandrine Thomas<BR>Deputy: Kevin Reil |
 |   Summit science | Kevin Reil Deputy: Bruno Quint |
 |   Summit software | Michael Reuter |
 |   Summit facility | Eduardo Serrano Deputy: Oscar Nuñez |
@@ -1421,7 +1430,7 @@ of this writing.
 |   Summit engineering | Roberto Tighe (interim) |
 |   Camera | Travis Lange |
 |   Systems engineering | Holger Drass |
-| **RDM** | Associate Director of Data Management: Wil O’MullaneDeputy: Yusra AlSayyad Deputy: Frossie Economou |
+| **RDM** | Associate Director of Data Management: Wil O’Mullane<BR>Deputy: Yusra AlSayyad<BR>Deputy: Frossie Economou |
 |   U.S. data facilities | Adam Bolton |
 |   France data facilities | Fabio Hernandez |
 |   UK data facilities | George Beckett |
