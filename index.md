@@ -53,7 +53,7 @@ of the System Performance department; see the figure’s caption) below
 the Directorate are headed by an associate (AD) and a deputy director,
 except for the Education and Public Outreach, which is led by a head of
 program. Each team below the *Management* box has a lead.  The people
-in these roles (at the time of this writing) are mentioned in Appendix A.
+in these roles (at the time of this writing) are mentioned in [Appendix A](#people-in-roles).
 
 We discuss the departments in this order: Director’s Office
 (RDO), Data Management Operations (RDM) and Summit Operations (RSO).
@@ -85,7 +85,7 @@ of operations.
 The **Safety** team will collectively manage oversight of personnel
 and equipment safety issues across the observatory geographic sites.
 They work with RSO to ensure all summit work considers safety of both
-personnel and equipment.  We discuss safety in section 8\.
+personnel and equipment.  We discuss safety in the [Safety section](#safety).
 
 **Program Operations** is responsible for administrative and program
 management operations for Rubin Observatory. They are responsible for
@@ -520,7 +520,7 @@ of the planning to the people implementing the work.
 (observatory-software-and-devops)=
 #### Observatory software and DevOps 
 
-During operations, **Base and Summit DFs,** **DevOps** (see section 4.1),
+During operations, **Base and Summit DFs, DevOps** (see the [DM Teams section](#the-dm-teams)),
 and **Summit Software** (see [RD15](#RD15)) tasks will get added in the meetings
 above through their groups’ attendees. Their work gets scheduled by
 the data management associate director and the head of summit software in
@@ -643,7 +643,8 @@ for the camera as well as the flats.  [RD13](#RD13) has the baseline
 calibration plan, but it is undergoing revision in early operations.
 It’s worth noting here that the calibration collimated beam projector
 needs \~1 week of maintenance every half year. This work goes through
-the CMMS system described above (section 5.2.1).
+the CMMS system described above (in the 
+[Yearly/quarterly planning meeting section](#yearly/quarterly-planning-meeting)).
 
 Calibrations need to be taken when the dome is dark.  For early
 operations, calibrations are usually taken at the end of the night, before
@@ -889,7 +890,7 @@ not necessarily involve a member of the observing team; it is a check by
 the day crew that things are ready to support night operations. There
 is a Confluence checklist for the TMA handover ([RD32](#RD32)) and one for the
 start of tests ([RD33](#RD33)). The daytime handover does not go over the work
-done that day. See 5.4.2 for how to find out what work got done that day.
+done that day. See the [Output section](#output) for how to find out what work got done that day.
 
 (summary-2)=
 ####  Summary 
@@ -977,7 +978,8 @@ tools are still being developed during early operations.
 
 As for other observations, not part of the survey, the scheduler can be
 stopped and re-configured to execute them, or the tests can be executed
-manually by the OSs, outside of FBS control (see section 5.3.1).  The OSs
+manually by the OSs, outside of FBS control (see the section on
+[forming the daiy obs-ops plan]](#forming-the-daily-observatory-operations-plan)).  The OSs
 use the guidance given in the obs-ops plan to decide when to do each
 observation.  The summit support scientist offers technical advice if
 need be.  If there is a need to deviate from the plan, they need to refer
@@ -997,7 +999,7 @@ the call first.
 (who’s-on-call)=
 #### Who’s on call 
 
-Section 6.5 discusses the call tree when something goes wrong.   
+The [Calling for help section](#calling-for-help) discusses the call tree when something goes wrong.   
 
 (handover-1)=
 #### Handover
@@ -1051,7 +1053,8 @@ FRACAS, some problems demand more analysis so that's when the **Systems
 Engineering** (SE) team does a more comprehensive failure mode, effects,
 and criticality analysis (FMECA). The corrective actions that result
 from FMECA are recorded as corrective maintenance activities in the
-maintenance management system (see 5.2.1).
+maintenance management system 
+(see the [Yearly/quarterly planning meeting section](#yearly/quarterly-planning-meeting)).
 
 (doing-a-summit-test)=
 #### Doing a summit test 
@@ -1075,7 +1078,8 @@ or nightly plan.
 
 For non-critical nighttime tests, the observing specialists (OSs)
 will have a list of tests that need to be done (as provided by the
-test planner; see section 5.3), along with their priorities and required
+test planner; see the [obs-ops planning section](#planning-for-obs-ops-summit-work)), 
+along with their priorities and required
 conditions. OSs can then schedule them as they see fit. The test orgainzer
 will configure the tests and bring them up through the planning for
 nighttime observations process.  The test planner owns the list of
@@ -1232,7 +1236,8 @@ detailed guidelines for safe working conditions.  All people working on
 Rubin Observatory are responsible for safe operations and should know
 the Rubin Safety Policy ([RD49](#RD49)) and the local SHE for the site they are
 operating at. **All personnel have the authority and obligation to report
-hazards or pause work if safety is compromised (**[RD49](#RD49), section 6.5).
+hazards or pause work if safety is compromised (**[RD49](#RD49), 
+[Calling for help section](#calling-for-help)).
 
 The safety standards are all stored in Docushare, both in English and
 Spanish ([RD52](#RD52)). Similarly, there is a collection of procedures
@@ -1248,8 +1253,8 @@ operations documentation ([RD56](#RD56)). They are also responsible for
 facilitating communication with the paramedics on summit and mountain
 assistant in case of medical emergency.
 
-Section 6.5 has the discussion of how to call when there is an emergency
-at the summit.
+The [Calling for help section](#calling-for-help) has the discussion 
+of how to call when there is an emergency at the summit.
 
 (understanding-data-quality)=
 ##  Understanding data quality 
@@ -1300,7 +1305,8 @@ Data that are bad that means something must be fixed during the day will
 come from the observers via Jira obs- tickets and processed at the Daily
 *Data Production Review* meeting. In addition, they may also identify
 things that are going wrong that require system maintenance. Such work
-will proceed along the lines of planning the eng-ops work (section 5.2).
+will proceed along the lines of planning the eng-ops work
+(see the [Planning for eng-ops work section](#planning-for-eng-ops-summit-work)).
 
 At least for now, every user of quality assessments has their own
 way of looking at the data and their assessments of the data are not
@@ -1327,8 +1333,8 @@ and the data pipeline processing that does the co-adds.
 
 Additionally, cp\_verify  (alternatively called the Calibration Products
 Production pipelines) will reduce daily calibrations and will tell
-us if anything is wrong with the daily calibrations (6.3.2) which
-could mean something from the camera has changed. Sometimes this is
+us if anything is wrong with the daily calibrations (see the [Calibration section](#calibrations))
+which could mean something from the camera has changed. Sometimes this is
 normal and new master calibrations will need to be made; other times
 it could highlight something changing non-accidentally, in which case
 it needs to be addressed before the nighttime observations start. If
@@ -1370,13 +1376,13 @@ If prompt processing fails to complete in the required 60 s, the
 observatory is not fulfilling its objective. The night crew continues
 taking data, contacting the USDF alerts person if they note the problem,
 while the USDF alerts person notices the problem and works on the
-situation. This is discussed in section 4.2.
+situation. This is discussed in the [Handling a problem](#handling-a-problem) section.
 
 Data pipeline processing may signal slow, small effects of the system
 that may need to be rectified before they turn into large effects. They
 go through the standard implementing procedures to invoke action in
 the end-ops or obs-ops plans. This is usually monitored by **CST**;
-see section 4.2.
+see the [Handling a problem](#handling-a-problem) section.
 
 The Consolidated database (ConsDB) is a schema that contains information
 for each exposure and visit (and each detector within those) taken
