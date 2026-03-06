@@ -4,6 +4,14 @@
 :local:
 :depth: 5
 ```
+(change-record)=
+## Change record
+
+| Version | Date | Description | Author |
+| :--- | :--- | :--- | :--- |
+| 1.00 | 31 Mar 26 | First release | S. J. Kleinman |
+
+*Document source location: https://github.com/lsst/rtn-094*
 
 (introduction)=
 ## Introduction 
@@ -584,10 +592,11 @@ tests and other observations to be performed during the night, requiring
 significant preparation and planning for each night.
 
 Each day the test planner (see [RD17](#RD17), currently the summit science support,
-[RD11](#RD11)) produces a daily obs-ops plan that is published by 10:00 AM. This
-plan has both the daytime and nighttime obs-ops activities in it. Because
-it is published at the start of the day, this means the majority of it
-is prepared the day before.
+[RD11](#RD11)) publishes a daily obs-ops plan. This
+plan has both the daytime and nighttime obs-ops activities in it. 
+Since the daytime OSs start their shift before the
+test planner, the test planner releases a draft test plan the night before. The
+final plan is published after the *Nighttime Briefing* meeting.
 
 As the survey progresses and there are less tests to be performed during
 the night and the daily calibrations are well-known, the project may
@@ -664,7 +673,8 @@ for each filter, and a portion of a photon transfer curve (PTC). The PTC
 takes hours to do, so that’s why it will be broken up into \~7 chunks
 so it gets done in one week.  Ideally, each daily calibration will take
 \~30 minutes to run and they will be taken at the same time every day.
-Section 9.3 discusses how these data are used.
+The [section Using the tools](#using-the-tools)  discusses how these
+data are used.
 
 In addition to these daily calibrations, there will be more calibrations
 (like monochromatic flats and collimated beam projector scans) taken on
@@ -936,9 +946,10 @@ a list of obs-ops procedures and documentation for telescope operations.
 
 The observing specialists (OS; discussed in [RD13](#RD13)) are those
 responsible for executing the obs-ops daily plan. During the daytime,
-the daytime OSs execute the plan, starting when the test planner releases
-the plan at the start of their shift. They can contact the test planner
-if there are any questions about the tasks within it.
+the daytime OSs execute the draft plan the test planner released the night
+before (see the [Planning for obs-ops section](#planning-for-obs-ops-summit-work).
+The obs-ops daily plan becomes official after the *Nighttime
+Briefing* meeting. 
 
 At nighttime, the OS late shift executes the plan, as briefed by the
 daytime OS shift manager when they start their shift. They are generally
