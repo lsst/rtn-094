@@ -985,9 +985,11 @@ change with time. See [RD2](#RD2) for the current details.
 Observing specialists oversee the execution of the daily obs-ops plan,
 ensuring the system’s safe operations and stable performance. They
 address any anomalies that occur during execution, calling for help as
-needed. The roles, responsibilities, authority, and accountability are
-given in [RD16](#RD16).  Their detailed logs are vital, offering debuggers the
-necessary context to troubleshoot and implement solutions efficiently.
+needed.  The daytime shift manager deals with any conflicts/questions
+about the draft day plan.  The roles, responsibilities, authority, and
+accountability are given in [RD16](#RD16).  Their detailed logs are vital,
+offering debuggers the necessary context to troubleshoot and implement
+solutions efficiently.
 
 For nighttime operations, the de-facto model is to turn on the feature
 based scheduler and then observe what it says. The feature based
@@ -1226,7 +1228,8 @@ emergencies, earthquakes, etc.  [RD40](#RD40) also has a link to [RD41](#RD41) f
 that initiates a SquadCast calls for summit observing emergencies, but
 should not be used for camera emergencies as the time limit for response
 is greater than what can be gotten from SuadCast (\>2m).  For camera
-emergencies, please contact the camera person as per the next section.
+emergencies, please contact the camera person who is listed in the Canmera tab
+of the Unified Summit Shifts Schedule ([RD11](#RD11)).
 
 2. In non-emergencies
 
