@@ -1422,9 +1422,9 @@ is given by [RD25](#RD25) and a short tutorial and using it is provided in
 (people-in-roles)=
 ## People in roles
 
-The staffing plan is given in [[RD13](#RD13)](#[RD13](#RD13)).  This
+The staffing plan is given in [[RD13](#RD13)].  This
 appendix has the people in some levels of the org chart as of the time
-of this writing.
+of this release.
 
 
 | **Role** | **Person** |
@@ -1477,15 +1477,22 @@ of this writing.
 These documents are referred to as RDX in the text where X equals the number of the document here. Ex. RD6 refers to 6 *The Nightly digest.*
 
 (RD1)=
-1. SIT-Com meeting summary and schedule [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning) **(needs updating)**
+1. SIT-Com meeting summary and schedule
+       [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning) **(needs updating)**<BR>
+This one is a work-in-progress from early operations
+      [https://rubinobs.atlassian.net/wiki/spaces/~skleinman/pages/1028227075/SIT-Com+to+Ops+Meetings](https://rubinobs.atlassian.net/wiki/spaces/~skleinman/pages/1028227075/SIT-Com+to+Ops+Meetings)
 (RD2)=
-2. SIT-Com 24hr script [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning) **(needs updating)**
+2. SIT-Com 24hr script
+       [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning) **(needs updating)**
 (RD3)=
-3. Zephyr scale workflows [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows)  
+3. Zephyr scale workflows
+       [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows)  
 (RD4)=
-4. The SUMMIT Jira board [https://rubinobs.atlassian.net/jira/software/c/projects/SUMMIT/boards/249](https://rubinobs.atlassian.net/jira/software/c/projects/SUMMIT/boards/249)  
+4. The SUMMIT Jira board
+       [https://rubinobs.atlassian.net/jira/software/c/projects/SUMMIT/boards/249](https://rubinobs.atlassian.net/jira/software/c/projects/SUMMIT/boards/249)  
 (RD5)=
-5. The OBS Jira board [https://rubinobs.atlassian.net/jira/software/c/projects/OBS/summary](https://rubinobs.atlassian.net/jira/software/c/projects/OBS/summary)  
+5. The OBS Jira board 
+       [https://rubinobs.atlassian.net/jira/software/c/projects/OBS/summary](https://rubinobs.atlassian.net/jira/software/c/projects/OBS/summary)  
 (RD6)=
 6. The Nightly Digest   
       [https://usdf-rsp.slac.stanford.edu/nightlydigest/\#](https://usdf-rsp.slac.stanford.edu/nightlydigest/#)  
@@ -1578,7 +1585,8 @@ These documents are referred to as RDX in the text where X equals the number of 
 36.  Shift Manager Roles (Operations)  
        [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/1318354949/Shift+Manager+Roles+Operations](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/1318354949/Shift+Manager+Roles+Operations)  
 (RD37)=
-37.  Decision Making on Cerro Pachón [https://www.google.com/url?q=https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft\&sa=D\&source=docs\&ust=1765225616013568\&usg=AOvVaw2GCvKfT51Tx8OtZ\_-T8cxS](https://www.google.com/url?q=https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft&sa=D&source=docs&ust=1765225616013568&usg=AOvVaw2GCvKfT51Tx8OtZ_-T8cxS)  
+37.  Decision Making on Cerro Pachón
+     [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft&sa=D&source=docs&ust=1765225616013568&usg=AOvVaw2GCvKfT51Tx8OtZ_-T8cxS](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft&sa=D&source=docs&ust=1765225616013568&usg=AOvVaw2GCvKfT51Tx8OtZ_-T8cxS)
 (RD38)=
 38.  Voluntary Out-of-Hours Support Call List  
        [https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43242474/Voluntary+Out-of-Hours+Support+Call+List](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43242474/Voluntary+Out-of-Hours+Support+Call+List)  
