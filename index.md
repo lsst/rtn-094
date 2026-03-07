@@ -7,7 +7,7 @@
 (change-record)=
 ## Change record
 
-| Version | Date | Description | Author |
+| **Version** | **Date** | **Description** | **Author** |
 | :--- | :--- | :--- | :--- |
 | 1.00 | 31 Mar 26 | First release | S. J. Kleinman |
 
@@ -376,11 +376,11 @@ name: table5-1
 class: frame
 ---
 
-* - Timescale 
-  - Meeting 
-  - Frequency 
-  - Chair 
-  - Output 
+* - **Timescale**
+  - **Meeting**
+  - **Frequency**
+  - **Chair**
+  - **Output**
 * - **Year– Quarter**  
   - Daytime Quarterly Review 
   - Quarterly (currently doesn’t happen)
@@ -739,11 +739,11 @@ widths: auto
 name: table5-2
 ---
 
-* - Timescale 
-  - Meeting 
-  - Frequency 
-  - Chair 
-  - Output
+* - **Timescale**
+  - **Meeting**
+  - **Frequency**
+  - **Chair**
+  - **Output**
 * - **Quarter – Month**
   - Summit Monthly Planning Meeting
   - Weekly
@@ -1220,7 +1220,7 @@ discussions that involve the observing specialists.
 (calling-for-help)=
 ### Calling for help
 
-   1. In emergencies
+#### In emergencies
 
 Any summit emergency not related to observing and summit operations
 should be handled per the [RD40](#RD40) guide. This is to be used  for medical
@@ -1231,7 +1231,7 @@ is greater than what can be gotten from SuadCast (\>2m).  For camera
 emergencies, please contact the camera person who is listed in the Canmera tab
 of the Unified Summit Shifts Schedule ([RD11](#RD11)).
 
-2. In non-emergencies
+#### In non-emergencies
 
 The Unified Summit Schedule ([RD11](#RD11)) has a list of remote people on call
 for some topics. You can find this on the *Summary* tab for engineering
@@ -1426,9 +1426,8 @@ The staffing plan is given in [[RD13](#RD13)](#[RD13](#RD13)).  This
 appendix has the people in some levels of the org chart as of the time
 of this writing.
 
-*Table A-1: The leads of the orgchart as of the time of this writing.*
 
-| Role | Person |
+| **Role** | **Person** |
 | ----- | ----- |
 | **Directorate** | Director of Operations: Bob Blum<BR>Deputy Director of Operations: Phil Marshall |
 |   Safety | Sandra Romero Zenteno |
@@ -1460,26 +1459,27 @@ of this writing.
 |   Education | Group lead: Ardis Herrold |
 |   Outreach | Group lead: Kristen Metzger |
 |   Citizen science | Group lead: Clare Higgs |
+*Table A-1: The leads of the orgchart as of the time of this writing.*
 
-*Table A-2: People with various roles mentioned here as of the time of this writing.*
 
-| Role | Person |
+| **Role** | **Person**|
 | ----- | ----- |
 | Calibration Scientist | Eli Rykoff |
 | Calibration Consultant | Robert Lupton |
 | Chief Engineer | Doug Neill |
 | Early Operations System Optimization Lead | Ketih Bechtol |
 | SquadCast Lead | Cristian Silva |
+*Table A-2: People with various roles mentioned here as of the time of this writing.*
 
 (reference-documents)=
 ## Reference documents 
 
-These documents are referred to as RDX in the text where X equals the decimal number of the document here. Ex. RD6 refers to 1.6 *The Nightly digest.*
+These documents are referred to as RDX in the text where X equals the number of the document here. Ex. RD6 refers to 6 *The Nightly digest.*
 
 (RD1)=
-1. SIT-Com meeting summary and schedule [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning)  
+1. SIT-Com meeting summary and schedule [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/452395103/SIT-Com+ConOps+Meetings+Summary+-+LSSTCam+On-Sky+Commisioning) **(needs updating)**
 (RD2)=
-2. SIT-Com 24hr script [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning)  
+2. SIT-Com 24hr script [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/408813569/24hr+Script+-+LSSTCam+On-Sky+Commissioning) **(needs updating)**
 (RD3)=
 3. Zephyr scale workflows [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/53741853/BLOCK+Zephyr+Scale+Workflows)  
 (RD4)=
