@@ -2,3 +2,6 @@
 # https://documenteer.lsst.io/technotes/
 
 from documenteer.conf.technote import *  # noqa F401 F403
+myst_substitutions = {
+    "current_version": "1.00"
+}
