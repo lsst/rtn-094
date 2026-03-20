@@ -400,7 +400,7 @@ class: frame
   -  Daytime Weekly Integration 
   -  Weekly   
   -  Summit engineering team lead 
-  - [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-page?project.key=SUMMIT&project.id=10053) 
+  - [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-permalink?calendar.id=6df2eedd-7ff9-447f-a9e4-f4c6471bf817) 
 * - **Day** 
   - Daytime Briefing 
   - Daily 
@@ -485,7 +485,7 @@ if you want to know the eng-ops activities that happen at the telescope,
 you’ll need to load the *Summit weekly planner* calendar plus the ones
 for all the subsystems.
 
-* Output: [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-page?project.key=SUMMIT&project.id=10053)  
+* Output: [Summit weekly calendars](https://rubinobs.atlassian.net/plugins/servlet/ac/doitbetter.calendar/calendar-permalink?calendar.id=6df2eedd-7ff9-447f-a9e4-f4c6471bf817)  
 * Meetings currently happen once a week (see [RD1](#RD1))
 
 
@@ -1586,7 +1586,7 @@ This one is a work-in-progress from early operations
        [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/1318354949/Shift+Manager+Roles+Operations](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/1318354949/Shift+Manager+Roles+Operations)  
 (RD37)=
 37.  Decision Making on Cerro Pachón
-     [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft&sa=D&source=docs&ust=1765225616013568&usg=AOvVaw2GCvKfT51Tx8OtZ_-T8cxS](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision%2BMaking%2Bon%2BCerro%2BPach%2Bn%2BDraft&sa=D&source=docs&ust=1765225616013568&usg=AOvVaw2GCvKfT51Tx8OtZ_-T8cxS)
+     [https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision+Making+on+Cerro+Pach+n+Draft](https://rubinobs.atlassian.net/wiki/spaces/LSSTCOM/pages/702840924/Decision+Making+on+Cerro+Pach+n+Draft)
 (RD38)=
 38.  Voluntary Out-of-Hours Support Call List  
        [https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43242474/Voluntary+Out-of-Hours+Support+Call+List](https://rubinobs.atlassian.net/wiki/spaces/LSSTPO/pages/43242474/Voluntary+Out-of-Hours+Support+Call+List)  
