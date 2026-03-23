@@ -9,7 +9,7 @@
 
 | **Version** | **Date** | **Description** | **Author** |
 | :--- | :--- | :--- | :--- |
-| x.xx | 31 Mar 26 | First release | S. J. Kleinman |
+| 1.00 | 23 Mar 26 | First release | S. J. Kleinman |
 
 *Document source location: https://github.com/lsst/rtn-094*
 
